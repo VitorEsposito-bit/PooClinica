@@ -1,22 +1,28 @@
-# POO_clinica
+# OOP_Clinic
 
-Esta aplicação em Java permite gerenciar uma lista de pacientes em uma clínica médica, oferecendo funcionalidades básicas como cadastro, consulta, alteração de dados e cálculo de IMC.
+This Java application allows managing a list of patients in a medical clinic, offering basic functionalities such as registration, consultation, data modification, and BMI calculation.
 
-## Funcionalidades:
-Cadastro de Pacientes: Permite cadastrar novos pacientes na lista.
-Consulta por Código: Consulta informações de um paciente específico pelo código.
-Consulta por Nome: Consulta informações de um paciente específico pelo nome.
-Listagem por Idade: Lista todos os pacientes com idade acima de um valor específico.
-Alteração de Peso, Altura e Sexo: Permite alterar o peso, altura e sexo de um paciente já cadastrado.
-Cálculo de IMC: Calcula e exibe o Índice de Massa Corporal de um paciente.
+## Features
 
-## Classes Principais:
-AppClinica.java
-Este é o ponto de entrada do programa. Ele contém o método main que interage com o usuário através do console para realizar as operações mencionadas acima.
+**Patient Registration:** Allows registering new patients in the list.
 
-ListaPacientes.java
-Esta classe gerencia a lista de pacientes, incluindo métodos para adicionar pacientes, consultar por código ou nome, listar pacientes com idade acima de um determinado valor, e mais.
+**Search by Code:** Consults information of a specific patient by code.
 
-Pacientes.java
-Representa a classe de dados dos pacientes, contendo atributos como código, nome, sexo, peso, altura e idade. Inclui métodos para cálculo de IMC, cálculo de peso ideal e representação textual do paciente.
+**Search by Name:** Consults information of a specific patient by name.
 
+**Listing by Age:** Lists all patients with age above a specific value.
+
+**Weight, Height, and Gender Modification:** Allows modifying the weight, height, and gender of an already registered patient.
+
+**BMI Calculation:** Calculates and displays the Body Mass Index of a patient.
+
+## Main Classes
+
+### AppClinica.java
+This is the program's entry point. It contains the main method that interacts with the user through the console to perform the operations mentioned above.
+
+### ListaPacientes.java
+This class manages the patient list, including methods to add patients, search by code or name, list patients with age above a certain value, and more.
+
+### Pacientes.java
+Represents the patient data class, containing attributes such as code, name, gender, weight, height, and age. Includes methods for BMI calculation, ideal weight calculation, and textual representation of the patient.
